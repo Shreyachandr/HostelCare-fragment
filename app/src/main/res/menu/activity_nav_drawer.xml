@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Home"/>
+        <item
+                android:id="@+id/helpme"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Help me "/>
+        <item
+                android:id="@+id/helpmf"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Help my friend"/>
+        <item
+                android:id="@+id/ChiefNote"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="From Chief Warden Desk"/>
+        <item
+                android:id="@+id/Aboutus"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="AboutUs"/>
+
+    </group>
+
+
+
+</menu>

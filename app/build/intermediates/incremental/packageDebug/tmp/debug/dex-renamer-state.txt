@@ -1,0 +1,4 @@
+#Sun Aug 04 23:24:55 IST 2019
+base.0=C\:\\HostelCare-fragment\\HostelCare-fragment\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

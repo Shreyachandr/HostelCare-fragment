@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HelpMyFriendActivity">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Snow"
+            tools:layout_editor_absoluteY="50dp"
+            tools:layout_editor_absoluteX="5dp"
+    >
+        <EditText
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editText4"
+                android:hint="Friend's Phone Number"
+                android:layout_marginTop="15dp" android:layout_marginLeft="20dp"/>
+
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_marginLeft="25dp">
+            <RadioButton
+                    android:text="Feeling Homesick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton10" android:layout_weight="1"
+                    android:textSize="18sp" android:layout_marginTop="20dp" android:checked="true"/>
+            <RadioButton
+                    android:text="Feeling Lonely"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton20" android:layout_weight="1"
+                    android:layout_marginTop="20dp" android:textSize="18sp"/>
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton30" android:layout_weight="1"
+                    android:layout_marginTop="20dp" android:textSize="18sp" android:text="Feeling Depressed"/>
+            <RadioButton
+                    android:text="Being Ragged"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButton40" android:layout_weight="1"
+                    android:textSize="18sp" android:layout_marginTop="20dp"/>
+        </RadioGroup>
+
+        <EditText
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText5" android:paddingBottom="80dp"
+                android:hint="Message" android:layout_marginLeft="20dp" android:layout_marginTop="15dp"/>
+        <Button
+                android:text="Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button3" android:onClick="hmsf"
+                android:layout_marginLeft="141dp" android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
